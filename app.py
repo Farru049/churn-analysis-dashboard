@@ -185,7 +185,7 @@ def main():
     
     try:
         # Load data
-        df = pd.read_csv('./Churn_Modelling.csv')
+        df = pd.read_csv('Churn_Modelling.csv')
         
         # Preprocess data for visualization
         df_processed, label_encoders = preprocess_data_for_vis(df)
